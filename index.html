@@ -7,82 +7,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>O Mistério do Castelo Esquecido</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="img/cenario-passo0.png" alt="">
-            <p>Voce esta com medo d seu futuro</p>
-            <button class="btn-proximo" data-proximo="1">Passar em fauldade</button>
-            <button class="btn-proximo" data-proximo="2">sem fazer falcudade</button>
+            <p>Você é Alex, um jovem aventureiro que encontrou um antigo mapa no sótão da sua avó. O mapa leva a um castelo esquecido nas montanhas.</p>
+            <button class="btn-proximo" data-proximo="1">Levar uma mochila cheia de suprimentos</button>
+            <button class="btn-proximo" data-proximo="2">Ir apenas com uma espada e uma capa</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <p>Você decide levar uma mochila cheia de suprimentos. Após uma longa caminhada, você chega ao castelo ao entardecer. A entrada está trancada, mas você encontra um buraco na parede.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar pela porta decorada</button>
+            <button class="btn-proximo" data-proximo="4">Entrar pela porta simples</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>Você decide ir apenas com uma espada e uma capa. Chegando ao castelo, você encontra a entrada trancada. Sem muitos recursos, decide voltar para casa.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para casa</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Você entra pela porta decorada e encontra um salão cheio de estátuas. Um pedestal no centro tem um livro antigo. Você ouve um rugido vindo de um corredor adjacente.</p>
+            <button class="btn-proximo" data-proximo="6">Ler o livro</button>
+            <button class="btn-proximo" data-proximo="7">Investigar o rugido</button>
         </div>
-
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <p>Você decide entrar pela porta simples. O caminho leva a um corredor sem muitos detalhes. Após algum tempo explorando, você encontra uma saída para o lado de fora, com nada mais a descobrir.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para casa</button>
         </div>
-
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Você decide voltar para casa. Embora tenha sentido que a aventura era grandiosa, você sempre se pergunta o que teria encontrado no castelo.</p>
         </div>
-
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Ao ler o livro, você descobre um feitiço antigo que revela uma passagem secreta atrás de uma das estátuas. A sala escondida contém um tesouro e um artefato mágico.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar o tesouro e o artefato</button>
         </div>
-
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>Você decide investigar o rugido e encontra um dragão guardando uma câmara secreta. Com coragem e estratégia, você vence o dragão e encontra um artefato poderoso.</p>
+            <button class="btn-proximo" data-proximo="9">Confrontar o dragão</button>
+            <button class="btn-proximo" data-proximo="10">Evitar o dragão</button>
         </div>
-
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Você explora o tesouro e o artefato. O artefato revela que você foi escolhido para proteger o castelo. Você retorna para casa como um herói e guardião do castelo.</p>
         </div>
-
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Você decide confrontar o dragão. Após uma grande batalha, você encontra um antigo artefato que concede poder e sabedoria, e você se torna um grande aventureiro.</p>
         </div>
-
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
-        </div>
-
-        <div class="passo" id="passo-11">
-            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
-        </div>
-
-        <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Você evita o dragão e encontra uma rota alternativa para a câmara secreta. Lá, você descobre documentos antigos sobre o castelo e se torna um estudioso respeitado.</p>
         </div>
     </main>
     <script src="script.js"></script>
